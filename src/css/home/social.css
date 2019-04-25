@@ -1,0 +1,38 @@
+.social-card-container {
+  display: inline-block;
+  margin: 6px;
+}
+
+.social-card.card {
+  width: 256px;
+  background-color: rgb(55, 59, 65);
+  border: none;
+}
+
+.social-card .card-img-top {
+  position: relative;
+  background-color: rgb(35, 39, 45);
+  width: 256px;
+  height: 256px;
+  text-align: center;
+}
+
+.social-card-icon-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.where-i-am-container {
+  text-align: center;
+}
+
+.where-i-am {
+  width: 75%;
+  margin: auto;
+}
+
+.social-cards {
+  margin-top: 48px;
+}

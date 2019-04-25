@@ -1,0 +1,9 @@
+.main-nav {
+  transition: 0.5s;
+  font-size: 20px;
+  background-color: transparent;
+}
+
+.main-nav.scrolled {
+  background-color: rgb(5, 9, 15);
+}

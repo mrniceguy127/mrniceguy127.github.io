@@ -1,0 +1,22 @@
+body {
+  background-color: rgb(5, 9, 15);
+}
+
+.main-nav {
+  background-color: rgb(5, 9, 15);
+  transition: 0.5s;
+  font-size: 20px;
+}
+
+*:focus {
+  outline: none !important;
+;}
+
+.navbar-toggler {
+  border: none;
+}
+
+.section {
+  margin-top: 128px;
+  margin-bottom: 128px;
+}

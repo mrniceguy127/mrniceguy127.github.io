@@ -1,0 +1,46 @@
+.project-card-container {
+  display: inline-block;
+  margin: 6px;
+}
+
+.project-card.card {
+  width: 256px;
+  background-color: rgb(55, 59, 65);
+  border: none;
+}
+
+.project-card .card-img-top {
+  position: relative;
+  background-color: rgb(35, 39, 45);
+  width: 256px;
+  height: 256px;
+  text-align: center;
+}
+
+.projects-list-container {
+  text-align: center;
+  margin-top: 128px;
+}
+
+.projects-list {
+  width: 75%;
+  margin: auto;
+}
+
+.project-cards {
+  margin-top: 48px;
+}
+
+.project-card-button {
+  margin: 4px;
+}
+
+.project-card-button-text {
+  margin-left: 8px;
+}
+
+.project-icon {
+  margin-top: 30px;
+  width: 192px;
+  height: 192px;
+}
