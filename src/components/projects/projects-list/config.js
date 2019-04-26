@@ -2,6 +2,7 @@ import bulletHellIcon from "../../../res/images/project-icons/bullethell.png";
 import chopChampsIcon from "../../../res/images/project-icons/chopchamps.png";
 import koolBot2Icon from "../../../res/images/project-icons/kb2.png";
 import hexapawnAIIcon from "../../../res/images/project-icons/hexapawnai.png";
+import brianbot164Icon from "../../../res/images/project-icons/bbot.png";
 
 export default {
   header: "Projects",
@@ -81,6 +82,20 @@ export default {
           icon: "globe-americas",
           link: "https://koolbot2.mrniceguy127.me/",
           iconType: "fas"
+        }
+      ]
+    },
+    {
+      key: "brian-bot-v1.64",
+      title: "Brian Bot v1.64",
+      icon: brianbot164Icon,
+      buttons: [
+        {
+          key: "github",
+          text: "",
+          icon: "github",
+          link: "https://github.com/mrniceguy127/brian-bot-v1.64",
+          iconType: "fab"
         }
       ]
     }
