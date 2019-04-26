@@ -2,11 +2,11 @@ export default {
   links: [
     {
       name: "Home",
-      href: "/"
+      href: process.env.PUBLIC_URL + "/#/"
     },
     {
       name: "Projects",
-      href: "/projects"
+      href: process.env.PUBLIC_URL + "/#/projects"
     }
   ]
 }
