@@ -25,7 +25,7 @@ export default {
           key: "demo",
           text: "Demo",
           icon: "play",
-          link: "http://bullethell.mrniceguy127.me/",
+          link: "https://www.mrniceguy127.me/bullet-hell/",
           iconType: "fas"
         }
       ]
@@ -67,7 +67,7 @@ export default {
           key: "demo",
           text: "Demo",
           icon: "play",
-          link: "http://chopchamps.mrniceguy127.me/",
+          link: "https://www.mrniceguy127.me/chop-champs/",
           iconType: "fas"
         }
       ]
