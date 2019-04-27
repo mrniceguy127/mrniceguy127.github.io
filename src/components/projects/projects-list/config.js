@@ -3,6 +3,7 @@ import chopChampsIcon from "../../../res/images/project-icons/chopchamps.png";
 import koolBot2Icon from "../../../res/images/project-icons/kb2.png";
 import hexapawnAIIcon from "../../../res/images/project-icons/hexapawnai.png";
 import brianbot164Icon from "../../../res/images/project-icons/bbot.png";
+import cpuIcon from "../../../res/images/project-icons/cpu.png";
 
 export default {
   header: "Projects",
@@ -95,6 +96,20 @@ export default {
           text: "",
           icon: "github",
           link: "https://github.com/mrniceguy127/brian-bot-v1.64",
+          iconType: "fab"
+        }
+      ]
+    },
+    {
+      key: "16-bit-cpu",
+      title: "16-bit CPU",
+      icon: cpuIcon,
+      buttons: [
+        {
+          key: "github",
+          text: "",
+          icon: "github",
+          link: "https://github.com/mrniceguy127/16-bit-cpu",
           iconType: "fab"
         }
       ]
