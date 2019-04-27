@@ -46,7 +46,7 @@ export default {
           key: "demo",
           text: "Demo",
           icon: "play",
-          link: "http://www.mrniceguy127.me/hexapawn-ai/",
+          link: "https://www.mrniceguy127.me/hexapawn-ai/",
           iconType: "fas"
         }
       ]
