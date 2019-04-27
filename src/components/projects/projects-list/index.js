@@ -9,7 +9,7 @@ class ProjectCard extends React.Component {
       let icon = button.icon ? <i className={`project-card-button-icon ${button.iconType} fa-${button.icon}`}></i> : '',
         text = button.text ? <span className="project-card-button-text">{button.text}</span> : '';
       return (
-        <a key={button.key} href={button.link} target="_blank" rel="noopener noreferrer" className="project-card-button btn btn-primary">
+        <a key={button.key} href={button.link} target={button.newTab ? '__blank' : ''} rel="noopener noreferrer" className="project-card-button btn btn-primary">
           {icon}
           {text}
         </a>
