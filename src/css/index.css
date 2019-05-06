@@ -19,4 +19,5 @@ body {
 .section {
   margin-top: 128px;
   margin-bottom: 128px;
+  visibility: hidden;
 }
