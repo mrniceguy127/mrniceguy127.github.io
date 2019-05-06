@@ -10,7 +10,7 @@ class SocialCard extends React.Component {
         <div className="social-card card">
           <div className="card-img-top">
             <div className="social-card-icon-container">
-              <i className={`fab fa-${info.icon} fa-7x`}></i>
+              <i className={`${info.icon} fa-7x`}></i>
             </div>
           </div>
           <div className="card-body">
