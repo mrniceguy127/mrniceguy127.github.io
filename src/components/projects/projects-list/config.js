@@ -113,6 +113,20 @@ export default {
           iconType: "fab"
         }
       ]
+    },
+    {
+      key: "dragondex",
+      title: "Dragondex",
+      icon: "",
+      buttons: [
+        {
+          key: "github",
+          text: "",
+          icon: "github",
+          link: "https://github.com/mrniceguy127/dragondex-backend",
+          iconType: "fab"
+        }
+      ]
     }
   ]
 };
