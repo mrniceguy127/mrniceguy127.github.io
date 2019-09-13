@@ -1,13 +1,12 @@
 import bulletHellIcon from "../../../res/images/project-icons/bullethell.png";
 import chopChampsIcon from "../../../res/images/project-icons/chopchamps.png";
-import koolBot2Icon from "../../../res/images/project-icons/kb2.png";
 import hexapawnAIIcon from "../../../res/images/project-icons/hexapawnai.png";
-import brianbot164Icon from "../../../res/images/project-icons/bbot.png";
 import cpuIcon from "../../../res/images/project-icons/cpu.png";
+import machinaIcon from "../../../res/images/project-icons/machina.png";
 
 export default {
   header: "Projects",
-  body: "If you're interested, here is a list of some of my projects / hobby projects I've been working on.",
+  body: "Hobby projects and others.",
   projects: [
     {
       key: "bullet-hell",
@@ -73,34 +72,6 @@ export default {
       ]
     },
     {
-      key: "kool-bot-2",
-      title: "Kool-Bot 2",
-      icon: koolBot2Icon,
-      buttons: [
-        {
-          key: "website",
-          text: "Website",
-          icon: "globe-americas",
-          link: "https://koolbot2.mrniceguy127.me/",
-          iconType: "fas"
-        }
-      ]
-    },
-    {
-      key: "brian-bot-v1.64",
-      title: "Brian Bot v1.64",
-      icon: brianbot164Icon,
-      buttons: [
-        {
-          key: "github",
-          text: "",
-          icon: "github",
-          link: "https://github.com/mrniceguy127/brian-bot-v1.64",
-          iconType: "fab"
-        }
-      ]
-    },
-    {
       key: "16-bit-cpu",
       title: "16-bit CPU",
       icon: cpuIcon,
@@ -115,16 +86,23 @@ export default {
       ]
     },
     {
-      key: "dragondex",
-      title: "Dragondex",
-      icon: "",
+      key: "machina",
+      title: "Machina",
+      icon: machinaIcon,
       buttons: [
         {
           key: "github",
           text: "",
           icon: "github",
-          link: "https://github.com/mrniceguy127/dragondex-backend",
+          link: "https://github.com/mrniceguy127/machina",
           iconType: "fab"
+        },
+        {
+          key: "website",
+          text: "Website",
+          icon: "globe-americas",
+          link: "https://machina.mrniceguy127.me/",
+          iconType: "fas"
         }
       ]
     }
