@@ -135,8 +135,8 @@ class CanvasAnimation extends React.Component {
       if (lineIndex < lines.length/2) {
         let j = 0;
         let interval = setInterval(() => {
-          const distPerStep = 16;
-          if (j-1 !== 800/distPerStep) {
+          const distPerStep = 14;
+          if (j-1 <= 800/distPerStep) {
             ctx.fillStyle = lines[lineIndex].color;
             ctx.fillRect(0, lineIndex*lines[lineIndex].width, j*distPerStep, lines[lineIndex].width);
             ctx.fillStyle = lines[(lines.length-2)-lineIndex].color;
