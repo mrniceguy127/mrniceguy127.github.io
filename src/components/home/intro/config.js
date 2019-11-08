@@ -6,7 +6,7 @@ export default {
   },
   header: {
     text: {
-      main: "mrniceguy127",
+      main: "Matt Kleiner",
       copyright: {
         own: true
       }
