@@ -7,7 +7,7 @@ export default {
       name: "GitHub",
       username: "mrniceguy127",
       link: "https://github.com/mrniceguy127"
-    },
+    },/*
     {
       key: "npm",
       icon: "fab fa-npm",
@@ -28,6 +28,6 @@ export default {
       name: "PyPI",
       username: "mrniceguy127",
       link: "https://pypi.org/user/mrniceguy127/"
-    }
+    }*/
   ]
 };

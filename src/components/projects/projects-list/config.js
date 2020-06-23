@@ -1,10 +1,10 @@
 import machinaIcon from "../../../res/images/project-icons/machina.png";
-import bulletHellIcon from "../../../res/images/project-icons/bullethell.png";
-import chopChampsIcon from "../../../res/images/project-icons/chopchamps.png";
-import hexapawnAIIcon from "../../../res/images/project-icons/hexapawnai.png";
-import cpuIcon from "../../../res/images/project-icons/cpu.png";
-import brianbot164Icon from "../../../res/images/project-icons/bbot.png";
-import drexelIcon from "../../../res/images/project-icons/drex.png";
+//import bulletHellIcon from "../../../res/images/project-icons/bullethell.png";
+//import chopChampsIcon from "../../../res/images/project-icons/chopchamps.png";
+//import hexapawnAIIcon from "../../../res/images/project-icons/hexapawnai.png";
+//import cpuIcon from "../../../res/images/project-icons/cpu.png";
+//import brianbot164Icon from "../../../res/images/project-icons/bbot.png";
+//import drexelIcon from "../../../res/images/project-icons/drex.png";
 
 export default {
   header: "Projects",
@@ -31,7 +31,7 @@ export default {
         }
       ]
     },
-    {
+    /*{
       key: "16-bit-cpu",
       title: "16-bit CPU",
       icon: cpuIcon,
@@ -135,6 +135,6 @@ export default {
           iconType: "fas"
         }
       ]
-    },
+    },*/
   ]
 };
